@@ -16,7 +16,9 @@ hr {
     margin-right: auto;
 }
 header {
-    position: fixed;
+    position: sticky;
+    border-bottom: 1px solid white;
+    top: 0;
     width: 100%;
     padding: 16px;
     background-color: rgb(58, 33, 33);
@@ -32,9 +34,9 @@ header a:hover {
     text-decoration: underline;
     background-color: hsl(0deg 0% 50.2% / 26%);
 }
-main {
+/* main {
     padding-top: 5vh;
-}
+} */
 main,
 section {
     padding: 0 16px 0 16px;
