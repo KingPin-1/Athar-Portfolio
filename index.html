@@ -22,11 +22,22 @@
     </head>
     <body>
         <header>
-            <nav>
+            <nav class="default-nav">
                 <a href="#about-me">About Me</a>
                 <a href="#education">Education</a>
                 <a href="#hobbies">Hobbies</a>
                 <a href="#contact-me">Contact Me</a>
+            </nav>
+            <section class="mobile-links">
+                <ul>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#contact-me">Contact Me</a></li>
+                </ul>
+            </section>
+            <nav class="mobile-nav">
+                <button id="menu-btn"><i class="fa-solid fa-bars"></i></button>
             </nav>
         </header>
         <main class="container" id="main-intro">
@@ -59,7 +70,7 @@
                 ></a>
             </div>
         </main>
-        <hr>
+        <hr />
         <section class="about-me" id="#about-me">
             <h3 class="about-me-head">About Me</h3>
             <p>
@@ -69,7 +80,7 @@
                 explicabo hic eos non vel!
             </p>
         </section>
-        <hr>
+        <hr />
         <section class="education" id="education">
             <h1>Education</h1>
             <table id="ed-table">
@@ -102,8 +113,8 @@
                 </tr>
             </table>
         </section>
-        <hr>
-        <section class="hobbies" id = "hobbies">
+        <hr />
+        <section class="hobbies" id="hobbies">
             <h1>Hobbies</h1>
             <ul>
                 <li>Swimming</li>
@@ -112,7 +123,7 @@
                 <li>Gaming</li>
             </ul>
         </section>
-        <hr>
+        <hr />
         <section class="contact-me" id="contact-me">
             <form action="" class="contact-form">
                 <h1>Contact Me</h1>
