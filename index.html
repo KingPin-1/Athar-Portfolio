@@ -28,7 +28,8 @@
                 <a href="#hobbies">Hobbies</a>
                 <a href="#contact-me">Contact Me</a>
             </nav>
-            <section class="mobile-links">
+            <section id = "mobile-links" class="mobile-links">
+                <button id = 'close-menu'>&times;</button>
                 <ul>
                     <li><a href="#about-me">About Me</a></li>
                     <li><a href="#education">Education</a></li>
@@ -37,7 +38,9 @@
                 </ul>
             </section>
             <nav class="mobile-nav">
-                <button id="menu-btn"><i class="fa-solid fa-bars"></i></button>
+                <button id="menu-btn">
+                    <i id="burger" class="fa-solid fa-bars"></i>
+                </button>
             </nav>
         </header>
         <main class="container" id="main-intro">
@@ -71,7 +74,7 @@
             </div>
         </main>
         <hr />
-        <section class="about-me" id="#about-me">
+        <section class="about-me" id="about-me">
             <h3 class="about-me-head">About Me</h3>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
@@ -155,5 +158,6 @@
         </section>
         <footer>Made with 💕 by Athar © 2023</footer>
         <script src="script.js"></script>
+        <script src="menu.js"></script>
     </body>
 </html>
